@@ -2488,9 +2488,9 @@
 		background: linear-gradient(#a8caba, #5d4157);
 		background-size: 400% 400%;
 
-		-webkit-animation: background 54s ease infinite;
-		-moz-animation: background 54s ease infinite;
-		animation: background 54s ease infinite;
+		-webkit-animation: background 37s ease infinite;
+		-moz-animation: background 37s ease infinite;
+		animation: background 37s ease infinite;
 
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
@@ -2503,19 +2503,19 @@
 	}
 
 @-webkit-keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
 }
 @-moz-keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
 }
 @keyframes background { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
 }
 
 		#header > * {
