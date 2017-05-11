@@ -2480,9 +2480,17 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #8e9eab;
-		background: #5D4157;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		
+		background: #5D4157;
+		
+		background: -webkit-linear-gradient(#a8caba, #5d4157);
+		background: -o-linear-gradient(#a8caba, #5d4157);
+		background: linear-gradient(#a8caba, #5d4157);
+		background-size: 400% 400%;
+
+		-webkit-animation: background 54s ease infinite;
+		-moz-animation: background 54s ease infinite;
+		animation: background 54s ease infinite;
 
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
@@ -2493,6 +2501,22 @@ background: linear-gradient(to bottom, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, 
 		top: 0;
 		width: 35%;
 	}
+
+@-webkit-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 		#header > * {
 			-moz-flex-shrink: 0;
