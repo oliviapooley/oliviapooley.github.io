@@ -2486,7 +2486,7 @@
 		background: -webkit-linear-gradient(#a8caba, #5d4157);
 		background: -o-linear-gradient(#a8caba, #5d4157);
 		background: linear-gradient(#a8caba, #5d4157);
-		background-size: 400% 400%;
+		background-size: 200%;
 
 		-webkit-animation: background 37s ease infinite;
 		-moz-animation: background 37s ease infinite;
